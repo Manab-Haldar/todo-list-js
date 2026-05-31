@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0069fd;
+}
+.main-container {
+    width: 450px;
+    background-color: #F3FCF0;
+    margin: 15vh auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+.heading-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding-bottom:15px;
+}
+.png {
+    background-image: url("list logo.png");
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin-left: 5px;
+}
+.submit-bar {
+    margin: 0 30px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.submit-bar input {
+    flex: 1;
+    height: 40px;
+    padding-left: 15px ;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+.submit-bar button {
+    height: 40px;
+    padding: 0 30px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ff6a00;
+    color: white;
+}
+.lists {
+    margin: 15px 30px 0 30px;
+}
+.lists ul {
+    padding: 0 0 0 10px;
+}
+.lists ul li {
+    height: 40px;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.lists ul li::before {
+    content: "";
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 7px;
+    background-size: cover;
+}
+ul li.checked {
+    text-decoration: line-through;
+    color: rgb(103, 103, 103);
+}
+ul li.checked::before {
+    background-image: url("tick.png");
+    border: 1px solid rgb(103, 103, 103);
+}
+ul li span {
+    position: absolute;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 28px;
+    
+}
+ul li span:hover {
+    background-color: rgba(103, 103, 103, 0.2);
+    cursor: pointer;
+}
