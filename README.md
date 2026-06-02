@@ -12,6 +12,10 @@ A simple and interactive To-Do List web application built with HTML, CSS, and Ja
 - Clean and modern user interface
 - Lightweight and beginner-friendly
 
+## 🌐 Live Preview
+
+You can try out the live version of the app here: [To-Do List App Live](https://manab-haldar.github.io/todo-list-js/)
+
 ## 🛠️ Technologies Used
 
 - HTML5
