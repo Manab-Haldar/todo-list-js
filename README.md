@@ -1,8 +1,8 @@
-# 📝 To-Do List Web App
+# To-Do List Web App
 
 A simple and interactive To-Do List web application built with HTML, CSS, and JavaScript. Users can add, complete, and delete tasks while enjoying automatic data persistence through Local Storage.
 
-## 🚀 Features
+## Features
 
 - Add new tasks instantly
 - Mark tasks as completed
@@ -12,18 +12,18 @@ A simple and interactive To-Do List web application built with HTML, CSS, and Ja
 - Clean and modern user interface
 - Lightweight and beginner-friendly
 
-## 🌐 Live Preview
+## Live Preview
 
 You can try out the live version of the app here: [To-Do List App Live](https://manab-haldar.github.io/todo-list-js/)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
 - Local Storage API
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 todo-list-js/
@@ -35,7 +35,7 @@ todo-list-js/
 └── tick.png
 ```
 
-## ⚙️ How It Works
+## How It Works
 
 ### Add a Task
 Enter a task in the input field and click the **Add** button.
@@ -49,7 +49,7 @@ Click the **×** icon beside a task to remove it.
 ### Save Tasks
 All tasks are automatically stored in the browser using Local Storage.
 
-## 📥 Installation
+## Installation
 
 Clone the repository:
 
@@ -65,7 +65,7 @@ cd todo-list-js
 
 Open `index.html` in your browser.
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 This project helped me learn:
 
@@ -77,7 +77,7 @@ This project helped me learn:
 - CSS Flexbox
 - Responsive UI Design
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Edit existing tasks
 - Add task priorities
@@ -85,15 +85,15 @@ This project helped me learn:
 - Dark mode support
 - Drag and drop task sorting
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome. Feel free to fork this repository and submit a pull request.
 
-## ⭐ Support
+## Support
 
 If you like this project, please consider giving it a star on GitHub.
 
-## 📧 Author
+## Author
 
 **Manab Haldar**
 
